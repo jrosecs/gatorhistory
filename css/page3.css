@@ -1,0 +1,267 @@
+/* Nav Bar */
+
+#navbar {
+    background-image: linear-gradient( 270deg, #0021A5, #FA4616);
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    top: 0;
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+a.navA {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    left: 0;
+}
+
+a.navA:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 5px;
+}
+
+a.navA:visited {
+    color: white;
+}
+
+a.navA:active {
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient( 270deg, #FA4616, #0021A5);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Scroll Table */
+.scrollContainer {
+    overflow-y: auto;
+    height:17em;
+    width: 75%;
+    margin: 25px auto;
+    border-radius: 3px;
+}
+
+.scrollContainer thead th {
+    position: sticky;
+    top: 0;
+}
+
+table.scroll {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th.scroll {
+    background-color: #FA4616;
+    color: #fff;
+}
+
+th.scroll, td.scroll {
+    padding: 8px 15px;
+}
+
+tr.scroll:nth-child(odd) {
+    background-color: #ececf4;
+}
+
+tr.scroll:nth-child(even) {
+    background-color: #e5e4e4;
+}
+
+td.avg.scroll {
+    background-color: #FA4616;
+    color: #fff;
+    font-weight: bold;
+}
+
+td.avg.scroll:hover, th.scroll:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 5px;
+}
+
+h1.scroll {
+    text-align: center;
+    color: black;
+}
+
+caption.scroll {
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #0021A5;
+    color: #fff;
+}
+
+tr.scroll:hover {
+    background-color: #0021A5;
+    color: #fff;
+}
+
+/* Layout Table */
+table.layout {
+    table-layout: fixed;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.layoutContainer {
+    margin: 0 auto 0 auto;
+}
+
+h2.layout {
+    text-align: center;
+}
+
+/* Display Table */
+.displayContainer {
+    width: 75%;
+    margin: 25px auto;
+    border-radius: 3px;
+}
+
+table.display {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th.display {
+    background-color: #FA4616;
+    color: #fff;
+}
+
+th.display, td.display {
+    padding: 8px 15px;
+}
+
+tr.display:nth-child(odd) {
+    background-color: #ececf4;
+}
+
+tr.display:nth-child(even) {
+    background-color: #e5e4e4;
+}
+
+td.avg.display {
+    background-color: #FA4616;
+    color: #fff;
+    font-weight: bold;
+}
+
+td.avg.display:hover, th.display:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 5px;
+}
+
+caption.display {
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #0021A5;
+    color: #fff;
+}
+
+tr.display:hover {
+    background-color: #0021A5;
+    color: #fff;
+}
+
+/* Rest of Styling */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 50px;
+    display: block;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 90px 0 10px 0;
+}
+
+body {
+    background: #f4f6f6;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-height: auto;
+    overflow: hidden;
+    width: 90%;
+    line-height: 1.6;
+}
+
+figure {
+    width: 30%;
+    margin: 0 20px 10px 0;
+    float: left;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.7em;
+    color: #555;
+    margin-top: 5px;
+}
+
+p {
+    text-indent: 20px;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+}
